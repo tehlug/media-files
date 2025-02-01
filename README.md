@@ -5,4 +5,4 @@ git clone --depth 1 --filter=blob:none --sparse git@github.com:tehlug/media-file
 cd media-files && \
 git sparse-checkout init --cone && \
 git sparse-checkout set events/images/<event_number>
-``
+```
